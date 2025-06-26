@@ -31,3 +31,68 @@ body {
   align-items: center;
   gap: 2rem;
 }
+
+.features {
+  background-color: var(--color-secondary);
+  padding: 4rem 1rem;
+}
+
+.features__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.features__title {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: var(--color-dark);
+}
+
+.features__image img {
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.features__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.feature {
+  background-color: white;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-4px);
+}
+
+.feature--active {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.feature__title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.feature__text {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.feature--active .feature__icon {
+  stroke: white;
+}
