@@ -11,5 +11,11 @@ index.html: contiene la estructura semántica del sitio
 css/: incluye reset.css, variables.css, layout.css, components.css y main.css
 img/: carpeta para logos e ilustraciones
 
+3.HISTORIAL DE COMMITS:
+
+![image](https://github.com/user-attachments/assets/21f28664-1f5c-4338-a469-5b9eb8204956)
+
+![image](https://github.com/user-attachments/assets/28b0d483-ff19-43d9-8fb1-d7320d9ba6bb)
+
 3.LINK DE GIBHUB PAGES:
 https://github.com/nanarosaaaaa/CRUZ-SERRATO_TRACE-APP/tree/main
