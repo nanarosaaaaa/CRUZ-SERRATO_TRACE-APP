@@ -12,4 +12,4 @@ css/: incluye reset.css, variables.css, layout.css, components.css y main.css
 img/: carpeta para logos e ilustraciones
 
 3.LINK DE GIBHUB PAGES:
-
+https://github.com/nanarosaaaaa/CRUZ-SERRATO_TRACE-APP/tree/main
