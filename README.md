@@ -19,3 +19,6 @@ img/: carpeta para logos e ilustraciones
 
 3.LINK DE GIBHUB PAGES:
 https://github.com/nanarosaaaaa/CRUZ-SERRATO_TRACE-APP/tree/main
+
+3.LINK DE SITIO WEB TRACE APP:
+https://nanarosaaaaa.github.io/CRUZ-SERRATO_TRACE-APP/
