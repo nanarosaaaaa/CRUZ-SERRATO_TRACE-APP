@@ -1,5 +1,33 @@
+body {
+  font-family: var(--font-base);
+  background-color: var(--color-secondary);
+  color: var(--color-dark);
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
+}
+
+.header {
+  background-color: white;
+  padding: 1rem 0 0.5rem 0; 
+  margin-bottom: 0; 
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo img {
+  height: 32px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
