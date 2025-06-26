@@ -6,6 +6,18 @@
 
 body {
   font-family: 'Nunito', sans-serif;
-  background-color: #F2F6FF;
-  color: #1B1F23;
+  line-height: 1.5;
+  background-color: #f0f4fc;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
 }

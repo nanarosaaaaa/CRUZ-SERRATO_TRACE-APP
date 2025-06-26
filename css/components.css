@@ -105,3 +105,84 @@
 .btn--dark:hover {
   background-color: #121025;
 }
+.pricing__card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.pricing__card--active {
+  background-color: var(--color-dark);
+  color: white;
+}
+
+.pricing__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+.pricing__card .btn {
+  margin-top: auto;
+  align-self: center;
+  width: 100%;
+  max-width: 180px;
+  padding: 0.8rem 1.5rem;
+  font-weight: 600;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pricing__card .btn:hover {
+  background-color: #0047b3;
+  transform: translateY(-2px);
+}
+
+.pricing__features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.pricing__features li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.pricing__features li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+.footer__links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__links a:hover {
+  text-decoration: underline;
+}
