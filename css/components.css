@@ -1,0 +1,89 @@
+.header {
+  background-color: white;
+  padding: 1rem 0;
+}
+
+.header__container {
+  display: flex;
+  align-items: stretch;
+}
+
+.header__logo {
+  background-color: var(--color-dark);
+  padding: 0.4rem 1.2rem;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%);
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 0;
+  padding-left: 1rem;
+}
+
+.nav__list {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  align-items: center;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: var(--color-dark);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+  color: var(--color-primary);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn--primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.btn--primary:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.btn--secondary {
+  background-color: white;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+.btn--secondary:hover {
+  background-color: #e6f0ff;
+}
+
+.btn--dark {
+  background-color: var(--color-dark);
+  color: white;
+}
+
+.btn--dark:hover {
+  background-color: #121025;
+}

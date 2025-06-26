@@ -1,0 +1,8 @@
+:root {
+  --color-primary: #0057D9;
+  --color-secondary: #F2F6FF;
+  --color-dark: #1B1F23;
+  --color-accent: #2DC7ED;
+  --color-blue-gradient: linear-gradient(135deg, #1E90FF, #1DB1F5);
+  --font-base: 'Nunito', sans-serif;
+}
